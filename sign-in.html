@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in | Accedi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="stylecar.css">
+    <link rel="shortcut icon" href="./media/immagini/logo_Techcar.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="javascript.js" defer></script>
+</head>
+<body class="bodysign-in">
+    <div class="login-content">
+         <h1 style="color: red;">Accedi</h1>
+         <div class="box-input">
+            <input type="text" id="nome" placeholder="Nome Utente"  autocomplete="username" spellcheck="true" required>
+    </div> 
+         <div class="box-input">
+            <input type="password"id="password" placeholder="Password" autocomplete="current-password" required > 
+       </div>  
+       <div class="haidimenticato">
+        <label><input  type="checkbox" id="ricordami" >Ricordami</label>
+        <a class="pass-dimenticata" href="#">Password dimenticata?</a>
+       </div>
+       <a href="./Home.html"><button type="submit" onclick="Login()" class="btnn">Accedi</button></a>
+    <div class="link-reg">
+        <p>Non hai un account? <a style="color: antiquewhite;"
+            style="text-decoration: underline;"
+            style="text-decoration-color: rgb(224, 22, 22);" href="registrati.html">Registrati</a></p>
+    </div>
+    <a class="torna-home" href="./Home.html">torna alla Home</a>
+    <div class="icon-bar-login">
+        <a href="#" class="fa fa-facebook"></a>  
+        <a href="#" class="fa fa-twitter2">X</a> 
+        <a href="#" class="fa fa-instagram"></a>    
+        <a href="#" class="fa fa-linkedin"></a> 
+        <a href=""><i class="fa fa-youtube-play"></i></a>
+  </div>
+    </div>
+</body>
+</html>

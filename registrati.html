@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrati | TechCar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="stylecar.css">
+    <link rel="shortcut icon" href="./media/immagini/logo_Techcar.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="javascript.js" defer></script>
+  </head>
+<body class="body-registrati">
+    <div class="registrati-content">
+        <h1 style="color: rgb(255, 0, 0);">Registrati</h1>
+        <div class="box-input2">
+           <input id="nomeReg" class="btn-textt" type="text" placeholder="Nome" spellcheck="true">
+   </div> 
+   <div class="box-input2">
+<input id="emailReg" class="btn-email" type="email" placeholder="Email" spellcheck="true">
+</div>
+<div class="data-nascita">
+       <p>data di nascita</p>
+       <input id="input2" placeholder="giorno" type="date" name="mese">
+       <button class="reset-btn" onclick="resetinput()">reset</button>
+      </div>
+   <button id="reg" type="submit" class="btnn2">Registrati</button>
+
+<div id="popup" class="popup"> 
+    <div class="loader" id="loader"></div>
+    <i style=" display:inline; font-size: 15px; color: rgb(255, 0, 0); " class="fa fa-check-circle"></i>
+    <div style="display:inline; text-align: center; font-size:100%" id="contci"> Registrazione completata!</div>
+</div> 
+   <div id="link-Reg" class="link-reg">
+       <p>hai già un account? <a style="color: antiquewhite;"style="text-decoration: underline;"
+        style="text-decoration-color: rgb(248, 114, 114);" 
+        href="./sign-in.html">Accedi</a></p>
+   </div>
+   <a class="torna-home" href="./Home.html">torna alla Home</a>
+   <div id="social" class="icon-bar-login">
+    <a href="https://it-it.facebook.com/login.php/" class="fa fa-facebook"></a>  
+    <a href="https://twitter.com/i/flow/signup" class="fa fa-twitter2">X</a>   
+    <a href="" class="fa fa-linkedin"></a>  
+    <a href="https://www.instagram.com/accounts/login/" class="fa fa-instagram"></a>  
+    <a href=""><i class="fa fa-youtube-play"></i></a>  
+    <a href="https://accounts.google.com/ServiceLogin?hl=IT" class="fa fa-google"></a> 
+ </div>
+   </div>
+</body>
+</html>
